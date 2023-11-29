@@ -1,21 +1,21 @@
 
-# End-To-End Business Intelligence solution 
-
+# End-To-End Business Intelligence Solution
 ## Introduction
-This BI project focuses on creating a comprehensive solution for analyzing sales data within a Priority based ERP system. The project involves the development of an ETL process, a Data Warehouse, a Power BI data model, and the implementation of reports and dashboards.
+This BI project is dedicated to creating a comprehensive Business Intelligence solution tailored for Nespresso's sales department. The project encompasses the development of an ETL process, a Data Warehouse, a Power BI data model, and the implementation of reports and dashboards.
 
-## Project Goals:
+# The Data
+The project is based on the adventureworks operational database
 
-- Data Mart:
-Create a Data Mart for the company's sales department.
-The Data Mart will encapsulate summarized data on company sales, along with detailed information on products, product categories, customers, branches, and salespeople.
+# Project Goals:
 
-- Dashboard and Reports:
-Develop an intuitive and informative dashboard featuring key performance indicators (KPIs) for efficient decision-making.
-Generate a set of insightful reports tailored for company management and sales department managers.
-The ultimate aim is to empower stakeholders with actionable insights, enhance overall performance, gain a competitive edge, derive strategic conclusions, and contribute to the overall augmentation of sales volumes.
+Data Mart:
+Create a Data Mart for the company's sales department, encapsulating summarized data on company sales, along with detailed information on products, product categories, customers, branches, and salespeople.
 
-# Data mart Schema
+Dashboard and Reports:
+Develop an interactive and informative dashboard that includes key performance indicators (KPIs) for effective decision making.
+Produce a set of insightful reports tailored for company management and sales department managers.
+
+# Data Mart Schema
 Fact Sales: Detailed information about the orders.
 Dim Customer: Information about the company's customers.
 Dim Employee: Details about the salespeople.
@@ -24,17 +24,21 @@ Dim Product: Information about product categories and company products.
 Dim Territory: Geographic information.
 
 # ETL Process
-Technologies: SSIS 
-Architecture: Describe the overall architecture of the ETL process.
-History Retention: Explain the history retention strategy for each table in the Data Mart.
+Technologies:
+SSIS (SQL Server Integration Services)
+
+Architecture:
+The ETL process involves extracting data from the operational database, transforming it to fit the Data Mart schema, and loading it into the Data Warehouse. The architecture ensures efficient and reliable data flow.
+
 
 # Reports and Dashboards
 Technologies: Power BI
+
 Sales Dashboard:
-Include a mockup of the Sales Dashboard and explain the key performance indicators (KPIs) and insights provided.
+The Sales Dashboard provides a visually appealing representation of key performance indicators (KPIs) and insights. It enables quick decision-making and a comprehensive view of sales performance.
 
 Salespeople Report:
-Include a mockup of the Salespeople Report and describe the key metrics and information presented for salespeople.
+The Salespeople Report offers detailed metrics and information on individual salespeople. It aids in understanding their contributions to overall sales and identifies areas for improvement.
 
 Customer Report:
-Include a mockup of the Customer Report and detail the information and metrics displayed for customers.
+The Customer Report displays information and metrics related to customers, providing valuable insights for targeted marketing and enhanced customer relationship management.
