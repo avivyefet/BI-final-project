@@ -4,7 +4,7 @@
 This BI project is dedicated to creating a comprehensive Business Intelligence solution tailored for Nespresso's sales department. The project encompasses the development of an ETL process, a Data Warehouse, a Power BI data model, and the implementation of reports and dashboards.
 
 # The Data
-The project is based on the adventureworks operational database
+The project is based on the adventureworks operational database. 
 
 # Project Goals:
 
@@ -14,6 +14,7 @@ Create a Data Mart for the company's sales department, encapsulating summarized 
 Dashboard and Reports:
 Develop an interactive and informative dashboard that includes key performance indicators (KPIs) for effective decision making.
 Produce a set of insightful reports tailored for company management and sales department managers.
+
 
 # Data Mart Schema
 Fact Sales: Detailed information about the orders.
@@ -28,7 +29,8 @@ Technologies:
 SSIS (SQL Server Integration Services)
 
 Architecture:
-The ETL process involves extracting data from the operational database, transforming it to fit the Data Mart schema, and loading it into the Data Warehouse. The architecture ensures efficient and reliable data flow.
+The ETL process involves extracting data from the operational database, transforming it to fit the Data Mart schema, and loading it into the Data Mart. The architecture ensures efficient and reliable data flow.
+
 
 
 # Reports and Dashboards
@@ -42,3 +44,6 @@ The Salespeople Report offers detailed metrics and information on individual sal
 
 Customer Report:
 The Customer Report displays information and metrics related to customers, providing valuable insights for targeted marketing and enhanced customer relationship management.
+
+# ST2 and Functional specification documents
+
