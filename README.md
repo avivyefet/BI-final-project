@@ -15,6 +15,48 @@ Dashboard and Reports:
 Develop an interactive and informative dashboard with Key Performance Indicators (KPIs) to empower the sales department with data-driven insights for effective decision-making
 
 ## Project Structure:
+1. ETL Process:
+Directory: etl/
+Description: Contains scripts and configurations for the Extract, Transform, Load (ETL) process. This process extracts data from the operational database, transforms it according to the Data Mart schema, and loads it into the Data Mart.
+
+3. Data Warehouse:
+Directory: data_warehouse/
+Description: Holds the schema and scripts for the Data Warehouse. This is where the summarized sales data is organized for efficient querying and reporting.
+
+5. Power BI Model:
+Directory: power_bi_model/
+Description: Contains the Power BI data model. This model defines relationships, measures, and calculated fields to enable insightful analysis within Power BI.
+
+7. Reports and Dashboards:
+Directory: reports_dashboards/
+Description: Implementation of reports and dashboards using Power BI. Visualizations are designed to provide a clear overview of sales performance and key metrics.
+
+9. Documentation:
+Directory: docs/
+Description: Contains detailed design documents, ERD, and any other documentation related to the BI solution.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Database Overview
+Before diving into the BI solution, it's crucial to understand the database. The operational database is from priority ERP.
+first, I have explored the erp database to understend the data and the tables i needed for this project
+
+### DataWherhose ERD 
+Create a DW ERD for the sales module
+
+
 ETL Process:
 Technologies:
 SSIS (SQL Server Integration Services)
