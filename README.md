@@ -24,8 +24,8 @@ The ETL process extracts data from the operational database, applies necessary t
 
 ### Power BI Model, Reports, and Dashboards
 #### Technologies: Power BI
-#### Directory: reports_dashboards/
-Contains the Power BI data model, along with the implementation of reports and dashboards. Visualizations are designed to provide a clear overview of sales performance and key metrics.
+#### File name: FinalProject.pbix
+The FinalProject.pbix file encapsulates the Power BI data model, reports, and dashboards essential for analyzing sales performance and key metrics. The visualizations within this Power BI project aim to provide a clear and comprehensive overview of the company's sales data.
 
 ##### Sales Dashboard:
 The Sales Dashboard provides a visually appealing representation of key performance indicators (KPIs) and insights. It enables quick decision-making and a comprehensive view of sales performance.
