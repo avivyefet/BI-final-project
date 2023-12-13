@@ -36,8 +36,8 @@ The Salespeople Report offers detailed metrics and information on individual sal
 The Customer Report displays information and metrics related to customers
 
 ### Documentation:
-Directory: docs/
-Description: Contains detailed design documents, ERD, and any other documentation related to the BI solution.
+#### File name: functional_specification_document.pdf
+The Business Intelligence Solution document defines the scope and objectives of the project, providing detailed specifications for creating the sales department's Data Mart. It elaborates on the Extract, Transform, Load (ETL) process, covering scripts and configurations for transforming operational data. The document outlines the design and structure of the Data Warehouse, emphasizing efficient querying of summarized sales data. Additionally, it outlines requirements for the Power BI data model, visualizations, reports, and dashboards to offer a comprehensive view of sales performance. Specific purposes and expected insights are detailed for individual reports and dashboards. 
 
 
 
