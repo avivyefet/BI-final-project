@@ -16,8 +16,7 @@ Develop an interactive and informative dashboard with Key Performance Indicators
 
 ## Project Structure:
 ### ETL Process:
-#### Technologies: 
-SSIS (SQL Server Integration Services)
+#### Technologies: SSIS (SQL Server Integration Services)
 #### File name: FinalProject.sln
 This file contains scripts and configurations essential for the Extract, Transform, Load (ETL) process. The primary focus is on creating the dimension (dim) and fact tables required for the Data Mart. 
 The ETL process extracts data from the operational database, applies necessary transformations based on the Data Mart schema, and finally loads the processed data into the Data Mart.
