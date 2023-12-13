@@ -3,7 +3,7 @@
 ## Overview
 
 Welcome to the End-To-End Business Intelligence Solution repository! This project is part of the Experis Academy BI Developer Bootcamp and focuses on creating a comprehensive Business Intelligence (BI) solution for analyzing sales data.
-The project involves the development of an ETL process, a Data Warehouse, a Power BI data model, and the implementation of reports and dashboards.
+The project involves the development of an ETL process, a Data Warehouse, a Power BI data model and the implementation of reports and dashboards.
 
 
 ## Project Goals:
